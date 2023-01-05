@@ -11,10 +11,12 @@ const AuctionCart = (props) => {
     }
     return (
         <div className='auction-cart'>
-            <h3>KKR Squad</h3>
-            <h4>Total Purchased: {props.cart.length}</h4>
-            <h5>{squadMember}</h5>
+            <h4>Auction History</h4>
+            <h5>Total Purchased: {props.cart.length}</h5>
             <h5>Total spent: {totalSpent}</h5>
+            <br />
+            <h3>KKR Squad</h3>
+            <h5>{squadMember}</h5>
         </div>
     );
 };
